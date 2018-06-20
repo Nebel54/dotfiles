@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Custom aliases
+alias drush="fin drush"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
