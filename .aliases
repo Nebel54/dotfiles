@@ -2,6 +2,7 @@
 
 # Custom aliases
 alias drush="fin drush"
+alias uuid='uuidgen | tr "[:upper:]" "[:lower:]"'
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
