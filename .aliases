@@ -2,6 +2,7 @@
 
 # Custom aliases
 alias drush="fin drush"
+alias drushl="~/vendor/bin/drush"
 alias uuid='uuidgen | tr "[:upper:]" "[:lower:]"'
 alias pwgen='pwgen 16'
 

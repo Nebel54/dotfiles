@@ -1,5 +1,15 @@
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# BEGIN SNIPPET: Platform.sh CLI configuration
+HOME=${HOME:-'/Users/oliver'}
+export PATH="$HOME/"'.platformsh/bin':"$PATH"
+if [ -f "$HOME/"'.platformsh/shell-config.rc' ]; then . "$HOME/"'.platformsh/shell-config.rc'; fi # END SNIPPET
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+
+# Add composer bin folder to path
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Load nvm
 export NVM_DIR="$HOME/.nvm"
